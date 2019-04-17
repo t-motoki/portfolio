@@ -18,13 +18,13 @@ $breakpoint-down: (
 ) !default;
 
 // @mixinの定義
-@mixin mq-up($breakpoint: md) {
+@mixin mq-up($breakpoint: lg) {
   @media #{map-get($breakpoint-up, $breakpoint)} {
     @content;
   }
 }
 
-@mixin mq-down($breakpoint: md) {
+@mixin mq-down($breakpoint: lg) {
   @media #{map-get($breakpoint-down, $breakpoint)} {
     @content;
   }
