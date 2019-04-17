@@ -12,7 +12,7 @@ export default (props) => {
 
     return (
         <div>{aiue.map((a,i) => {
-          return (<p key={i}>{a}</p>);
+          return (<p id={'scl'+i} key={i}>{a}</p>);
         } )}</div>
     );
 

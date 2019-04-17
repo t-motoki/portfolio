@@ -9,7 +9,8 @@
   height: 100px;
   opacity: 0.8;
   background-color: $base-color;
-  p {
+  .logo {
+    display: inline-block;
     position: relative;
     top: 30px;
     font-family: 'Dokdo', cursive;
