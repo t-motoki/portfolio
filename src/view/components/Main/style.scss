@@ -1,0 +1,9 @@
+@import "../../../scss/base";
+
+.main {
+  position: relative;
+  padding-top: 120px;
+  width: 100%;
+  height: 100%;
+  background-color: lighten($base-color,35%);
+}

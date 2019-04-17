@@ -1,0 +1,11 @@
+@import "../../../scss/base";
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  opacity: 0.8;
+  background-color: $base-color;
+}

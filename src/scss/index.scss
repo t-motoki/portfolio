@@ -1,20 +1,10 @@
 @import "base";
 
-* {
-  box-sizing: border-box;
-}
-
-
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 2% 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ebecf1;
+  background: lighten($base-color,35%);
   
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
