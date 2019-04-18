@@ -1,0 +1,16 @@
+@import "../colors";
+
+// サブタイトルの共通デザイン
+@mixin subtitle() {
+  position: absolute;
+  padding: 0 50px 0;
+  top:0px;
+  right: 0px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 5em;
+  color: rgb(90, 20, 107);
+  &::first-letter {
+    font-size: 2em;
+    color: #111242;
+  }
+}

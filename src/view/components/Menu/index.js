@@ -6,7 +6,7 @@ export default (props) => {
   return (
     <div className='menu'>
        <p className='logo' onClick={()=>alert('test')}>tmotoki.net</p>
-       <AnchorLink href="#scl700" offset="100">リンク1へ移動</AnchorLink>
+       <AnchorLink href="#work" offset="110">Workへ移動</AnchorLink>
     </div>
   );
 };

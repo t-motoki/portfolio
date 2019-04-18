@@ -13,6 +13,7 @@
     display: inline-block;
     position: relative;
     top: 30px;
+    left: 1em;
     font-family: 'Dokdo', cursive;
     font-size: 48px;
     @include mq-down() {
