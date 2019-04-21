@@ -9,14 +9,16 @@
   height: 100px;
   opacity: 0.95;
   background-color: $base-color;
-  padding-left:1em; 
+  padding-left:1em;
+  box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.31); 
+
   .logo {
     display: inline-block;
-    position: absolute;
+    position: relative;
     font-family: 'Dokdo', cursive;
     top: 0px;
-    right: 0px;
     font-size: 48px;
+    padding-right: 48px;
     @include mq-down() {
       font-size: 24px;
       color: yellow;
@@ -25,7 +27,6 @@
   .items {
     display: inline-block;
     position: relative;
-
     .item {
       display: inline-block;
       border-right: 1px solid #bbbbbb;
@@ -34,12 +35,15 @@
       height: 100px;
       padding: 46px 16px;
       text-decoration: none;
-      &:hover:not(.active) {
+      &:first-child {
+        border-left: 1px solid #bbbbbb;
+      }  
+      &:hover:not(:active) {
         background-color: #a9bce2;
       }
-      &.active {
+      &:active {
         background-color: #da3c41;
-      }    
+      }
     }
   }
 }
