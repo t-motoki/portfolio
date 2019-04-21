@@ -1,46 +1,21 @@
 @import "../../../scss/base";
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 @import '../../../scss/mixin/share';
 
 #work {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(246, 249, 252);
-  box-shadow: 2px 2px 1px 1px #768488;
-
+  @include content-top();
   .subtitle {
-    @include subtitle();
+    @include content-subtitle();
   }
-
   .atmosphere {
-    width: 30%;
-    position: relative;
-    background-image: url('../../../img/work.jpg');
-    background-repeat: no-repeat;
-    background-size:  cover;
-    box-shadow: 3px 0px 3px -1px rgba(0,0,0,0.31);   
+    @include content-atmosphere('../../../img/work/work.jpg');
   }
   .concrete {
-    position: relative;
-    padding-left: 1%;
-    padding-top: 1%;
-
+    @include content-cconcrete();
     .caption {
-      white-space: nowrap;
-      position: relative;
-      width: 100%;
-      padding: 0.5em 0;
-      border-bottom: solid 3px darken($base-color,30%);
-      margin-bottom: 30px;
+      @include content-caption();
     }
-
     .contents {
-      position: relative;
-      width: 100%;
-      padding: 1em 1em 0;
+      @include content-body();
     }
-
   }
-
 }
