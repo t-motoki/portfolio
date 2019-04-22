@@ -8,8 +8,8 @@ export default (props) => {
     <div className='menu'>
       <p className='logo' onClick={()=>alert('未実装')}>tmotoki.net</p>
       <div className='items'>
-        <AnchorLink className='item' href='#work' offset={offset}>Works</AnchorLink>
         <AnchorLink className='item' href='#about' offset={offset}>About</AnchorLink>
+        <AnchorLink className='item' href='#work' offset={offset}>Works</AnchorLink>
         <AnchorLink className='item' href='#history' offset={offset}>History</AnchorLink>
       </div>
     </div>

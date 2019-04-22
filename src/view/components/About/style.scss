@@ -1,0 +1,29 @@
+@import "../../../scss/base";
+@import '../../../scss/mixin/share';
+
+#about {
+  @include content-top();
+  .subtitle {
+    @include content-subtitle();
+  }
+  .face {
+    background-image: url("../../../img/top/face.png");
+    width:  120px;
+    height: 155px;
+    border-radius: 50%;
+    background-position: center center;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  .atmosphere {
+    @include content-atmosphere('../../../img/top/zattou.jpg');
+  }
+  .concrete {
+    @include content-cconcrete();
+    .contents {
+      @include content-body();
+    }
+  }
+}
