@@ -1,0 +1,28 @@
+@import "../../../scss/base";
+@import '../../../scss/mixin/share';
+
+#history {
+  @include content-top();
+  .subtitle {
+    @include content-subtitle();
+  }
+  .atmosphere {
+    @include content-atmosphere('../../../img/history/rireki.jpg');
+    background-position: center center;
+  }
+  .concrete {
+    @include content-cconcrete();
+    .caption {
+      @include content-caption();
+      // width: 100px;
+    }
+    .contents {
+      @include content-body();
+      .gnchart {
+        position: relative;
+        width: 600px;
+        overflow: hidden;
+      }
+    }
+  }
+}

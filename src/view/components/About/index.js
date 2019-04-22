@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.scss';
-import face from '../../../img/top/face.png';
 
 export default (props) => {
   return (
@@ -25,6 +24,8 @@ export default (props) => {
           959pxをブレークポイントにする（タブレット）<br />
           メニューはハンバーガーボタンを配置し、<br />
           ドロワーメニューにする<br />
+          <br />
+          <br />
         </div>
       </div>
       <div className='subtitle'>About</div>
