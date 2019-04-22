@@ -6,6 +6,7 @@ export default (props) => {
     <div id='about'>
       <div className='atmosphere'></div>
       <div className='concrete'>
+        <div className='face'></div>
         <div className='contents'>
           <br />
           元木 高志と申します。<br />
@@ -29,7 +30,6 @@ export default (props) => {
         </div>
       </div>
       <div className='subtitle'>About</div>
-      <div className='face'></div>
     </div>
   );
 };

@@ -8,8 +8,9 @@
   top:0px;
   right: 0px;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 5em;
+  font-size: 10em;
   color: rgb(90, 20, 107);
+  opacity: 0.2;
   &::first-letter {
     font-size: 2em;
     color: #111242;
@@ -53,6 +54,7 @@
 }
 @mixin content-body() {
   position: relative;
+  white-space: nowrap;
   width: 100%;
   padding: 1em 1em;
 }
