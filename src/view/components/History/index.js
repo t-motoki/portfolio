@@ -40,6 +40,7 @@ const items = [
 export default (props) => {
   return (
     <div id='history'>
+      <div className='subtitle'>History</div>
       <div className='atmosphere'></div>
       <div className='concrete'>
         <p className='caption'>
@@ -74,7 +75,6 @@ export default (props) => {
           <br />          
         </div>
       </div>
-      <div className='subtitle'>History</div>
     </div>
   );
 };

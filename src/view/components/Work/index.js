@@ -4,6 +4,7 @@ import './style.scss';
 export default (props) => {
   return (
     <div id='work'>
+      <div className='subtitle'>Work</div>
       <div className='atmosphere'></div>
       <div className='concrete'>
         <p className='caption'>
@@ -36,7 +37,6 @@ export default (props) => {
           
         </div>
       </div>
-      <div className='subtitle'>Work</div>
     </div>
   );
 };
