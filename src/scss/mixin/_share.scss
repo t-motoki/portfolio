@@ -23,9 +23,9 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   background-color: rgb(246, 249, 252);
-  box-shadow: 1px 1px 2px 1px #4e5c5f;
+  box-shadow: 2px 2px 2px 1px #718185;
   border-radius: 5px;
 }
 @mixin content-atmosphere($imgurl) {
