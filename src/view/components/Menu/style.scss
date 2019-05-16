@@ -1,6 +1,8 @@
 @import "../../../scss/base";
 @import url('https://fonts.googleapis.com/css?family=Dokdo');
 
+$border-color:#bbbbbb;
+
 .menu {
   position: fixed;
   top: 0px;
@@ -30,7 +32,7 @@
     position: relative;
     .item {
       display: inline-block;
-      border-right: 1px solid #bbbbbb;
+      border-right: 1px solid $border-color;
       color: white;
       text-align: center;
       height: 100px;
@@ -38,13 +40,13 @@
       text-decoration: none;
       transition: transform 0.1s linear;
       &:first-child {
-        border-left: 1px solid #bbbbbb;
+        border-left: 1px solid $border-color;
       }  
       &:hover:not(:active) {
         transform: scale(1.1);
         background-color: #657caa;
-        border-right: 1px solid #bbbbbb;
-        border-left: 1px solid #bbbbbb;
+        border-right: 1px solid $border-color;
+        border-left: 1px solid $border-color;
         font-weight: 800;
       }
       &:active {

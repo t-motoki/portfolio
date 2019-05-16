@@ -10,7 +10,7 @@ export default (props) => {
         <div className='face'></div>
         <div className='contents'>
           <br />
-          元木 高志と申します。<br />
+          元木 高志と申します。<br />Ï
           Web系のエンジニアで、バックエンドからフロントエンドまで対応します。<br />
           <a href='https://github.com/t-motoki'>github</a>、Qiitaやってます！<br />
           <br />
